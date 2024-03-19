@@ -7,6 +7,12 @@ import React, { Suspense } from "react";
 
 import { authProvider } from "@providers/auth-provider";
 import { dataProvider } from "@providers/data-provider";
+
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+import "primereact/resources/primereact.css";
+import "primeflex/primeflex.css";
+import "primeicons/primeicons.css";
+
 import "@styles/global.css";
 
 export const metadata: Metadata = {
